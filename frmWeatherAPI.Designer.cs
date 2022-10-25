@@ -1,7 +1,7 @@
 ﻿
 namespace WeatherAPI
 {
-    partial class Form1
+    partial class frmWeatherAPI
     {
         /// <summary>
         /// Required designer variable.
@@ -63,7 +63,6 @@ namespace WeatherAPI
             this.button1.TabIndex = 0;
             this.button1.Text = "Get Weather (XML)";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -74,7 +73,6 @@ namespace WeatherAPI
             this.button2.TabIndex = 1;
             this.button2.Text = "Get Weather (JSON)";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -82,7 +80,6 @@ namespace WeatherAPI
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(418, 20);
             this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -93,7 +90,6 @@ namespace WeatherAPI
             this.label1.Size = new System.Drawing.Size(90, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Enter a Zip Code:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox2
             // 
@@ -110,7 +106,6 @@ namespace WeatherAPI
             this.label2.Size = new System.Drawing.Size(24, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "City";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox3
             // 
@@ -249,7 +244,7 @@ namespace WeatherAPI
             this.button3.Text = "Close";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmWeatherAPI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -278,8 +273,8 @@ namespace WeatherAPI
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmWeatherAPI";
+            this.Text = "Weather API";
             this.ResumeLayout(false);
             this.PerformLayout();
 
